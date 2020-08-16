@@ -1,6 +1,7 @@
 +++
-title = "Projects"
-slug = "projects"
+title = "Progetti"
+slug = "progetti"
+draft = true
 +++
 
-Nothing to see here... Move along!
+Ancora nulla...

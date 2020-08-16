@@ -1,6 +1,6 @@
 +++
-title = "Contact"
-slug = "contact"
+title = "Contatti"
+slug = "contatti"
 +++
 
-Follow me, @johndoe.
+Il modo migliore per contattarmi è tramite uno dei miei account social linkati in [home page](/) oppure puoi scrivermi un e-mail a lorenzo.cameroni***chiocciola***gmail.com.
