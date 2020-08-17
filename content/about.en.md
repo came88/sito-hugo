@@ -2,7 +2,7 @@
 title = "About me"
 slug = "about-me"
 aliases = [
-    "/about"
+    "about"
 ]
 +++
 

@@ -167,9 +167,9 @@ enableRobotsTXT = true
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "About"
+            name = "About me"
             weight = 1
-            url = "about/"
+            url = "about-me/"
 
             [[languages.en.menu.main]]
             name = "Blog"
