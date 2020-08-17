@@ -137,7 +137,6 @@ enableRobotsTXT = true
             name = "Chi sono"
             weight = 1
             url = "chi-sono/"
-            alias = "about/"
 
             [[languages.it.menu.main]]
             name = "Blog"
