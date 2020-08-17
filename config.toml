@@ -9,18 +9,24 @@ defaultcontentlanguage = "it"
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "b2"
+#see https://xyproto.github.io/splash/docs/ e https://xyproto.github.io/splash/docs/all.html
+pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 # disqusShortname = "yourdiscussshortname"
+
+# googleAnalytics = "UA-123-45"
+enableRobotsTXT = true
+# enableGitInfo = true
+
 
 [params]
     author = "Lorenzo Cameroni"
     description = "Sito personale di Lorenzo Cameroni"
     keywords = "blog,sviluppatore,personale"
     info = "Sviluppatore, matematico"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/lorenzo.jpg"
     #gravatar = "john.doe@example.com"
     # footercontent = "Inserisci del testo qui."
 
@@ -77,21 +83,31 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-github"
     weight = 1
     url = "https://github.com/came88"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab"
-    weight = 2
-    url = "https://gitlab.com/came88"
+# [[params.social]]
+#     name = "Gitlab"
+#     icon = "fab fa-gitlab"
+#     weight = 2
+#     url = "https://gitlab.com/came88"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/lorenzocameroni"
+    url = "https://twitter.com/LorenzoCameroni"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/lorenzocameroni"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 5
+    url = "https://www.instagram.com/lorenzo.cameroni/"
+# [[params.social]]
+#     name = "Facebook"
+#     icon = "fab fa-facebook"
+#     weight = 6
+#     url = "https://www.facebook.com/lorenzo.cameroni/"
 # [[params.social]]
 #     name = "Medium"
 #     icon = "fab fa-medium"
@@ -107,7 +123,7 @@ pygmentscodefencesguesssyntax = true
 
 
 [permalinks]
-    blog = "/blog/:year/:month/:title/"
+    blog = "/blog/:year/:month/:day/:slug/"
 
 
 [languages]
@@ -169,4 +185,4 @@ pygmentscodefencesguesssyntax = true
             [[languages.en.menu.main]]
             name = "Contact me"
             weight = 5
-            url = "contact/"
+            url = "contact-me/"
