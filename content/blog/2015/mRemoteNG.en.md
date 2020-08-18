@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2015-03-29T14:20:56+02:00
+date = 2015-03-29
 title = "mRemoteNG"
 description = "mRemoteNG useful stuff"
 slug = "" 

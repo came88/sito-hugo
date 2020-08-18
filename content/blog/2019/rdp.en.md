@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-05-27T14:51:24+02:00
+date = 2019-05-27
 title = "An RDP (remote desktop protocol) useful tip"
 description = ""
 slug = "rdp" 

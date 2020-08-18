@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2019-05-14T15:46:11+02:00
+date = 2019-05-14
 title = "Aggiornare le immagini docker"
 description = "Aggiornare tutte le immagini docker con un solo comando"
 slug = "" 

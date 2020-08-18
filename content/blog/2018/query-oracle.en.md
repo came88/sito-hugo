@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2018-09-12T15:46:35+02:00
+date = 2018-09-12
 title = "Some nice queries for Oracle"
 description = ""
 slug = "query-oracle" 

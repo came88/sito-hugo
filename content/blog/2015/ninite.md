@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2015-04-03T15:23:23+02:00
+date = 2015-04-03
 title = "Ninite"
 description = ""
 slug = "" 
