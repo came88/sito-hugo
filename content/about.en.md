@@ -6,17 +6,16 @@ aliases = [
 ]
 +++
 
-I'm Lorenzo Cameroni, and I'm a software engineer with a bachelor's degree in Maths.
+I'm Lorenzo Cameroni, and I'm a software engineer with a bachelor's degree in Mathematics.
 
 At work I mostly write code in Java, but I use many language and tools, such as:
 
 - Java, Maven, Spring and Spring Boot
 - SQL and PL/SQL
 - MongoDB
-- Docker
-- Bash
-- Powershell
+- Docker, Kubernetes and Openshift
+- Bash and Powershell
 - Javascript
-- HTML
-- CSS
-- XML and sometimes XSL
+- HTML and CSS
+- XML and sometimes XSLT, XPath
+- GIT
