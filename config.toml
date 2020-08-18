@@ -117,7 +117,7 @@ enableRobotsTXT = true
     name = "RSS"
     icon = "fas fa-rss"
     weight = 6
-    url = "/index.xml"
+    url = "blog/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
