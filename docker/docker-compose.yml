@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+ web:
+    image: nginx:alpine
+    restart: always
+    volumes:
+      - /share/homes/lorenzo/sito:/usr/share/nginx/html:ro
+      - ./default.conf:/etc/nginx/conf.d/default.conf:ro
+    environment:
+      - VIRTUAL_HOST=lorenzo.cameroni.eu
+      - LETSENCRYPT_HOST=lorenzo.cameroni.eu
+      - LETSENCRYPT_EMAIL=lorenzo.cameroni@gmail.com
+    networks:
+      - proxy_proxy-tier
+
+networks:
+  proxy_proxy-tier:
+    external: true
