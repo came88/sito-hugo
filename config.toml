@@ -57,8 +57,6 @@ enableRobotsTXT = true
 
     # Custom CSS
     custom_css = []
-
-    # Custom CSS
     custom_scss = [ "scss/custom.scss" ]
 
     # Custom JS

@@ -1,0 +1,8 @@
+body .gist table td,
+body .gist table th {
+    border: none;
+}
+
+.gist table tr:nth-child(even) {
+    background-color: #eee
+}
