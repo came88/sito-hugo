@@ -10,7 +10,7 @@ externalLink = ""
 series = []
 +++
 
-Finalmente sono riuscito a dare un poì più di struttura a questo sito.
+Finalmente sono riuscito a dare un po' più di struttura a questo sito.
 
 Ho lasciato WordPress (troppo per quel che mi serve realmente) e ho provato [Hugo](https://gohugo.io/), un generatore di siti statici scritto in [GO](https://golang.org/) e basato su [Markdown](https://it.wikipedia.org/wiki/Markdown).
 
