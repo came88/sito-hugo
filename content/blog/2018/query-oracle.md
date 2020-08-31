@@ -29,5 +29,8 @@ SELECT * FROM user_tab_columns
 ```
 Per escludere le viste invece
 ```sql
-SELECT * FROM user_tab_columns where table_name not in (select view_name from user_views)
+SELECT * FROM user_tab_columns
+where table_name not in (
+    select view_name from user_views
+)
 ```
