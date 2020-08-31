@@ -38,7 +38,7 @@ hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
 exit 0
 ```
 
-Questo e una configurazione di Docker (con docker-compose) tipo la seguente...
+Utilizzando questo script basta una configurazione di Docker (con `docker-compose`) tipo la seguente...
 
 ```yaml
 version: '3'
@@ -52,7 +52,7 @@ services:
       - ./default.conf:/etc/nginx/conf.d/default.conf:ro
 ```
 
-... con il file default.conf simile al seguente...
+... con il file `default.conf` simile al seguente...
 
 ```nginx
 server {
