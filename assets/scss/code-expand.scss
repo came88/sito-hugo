@@ -1,0 +1,7 @@
+$fontsize: 0.625; // 62.5% set on html font-size
+@media screen and (min-width: $fontsize * 90em) {
+    pre.expand:hover {
+        margin-right: calc(-50vw + 45rem);
+        // max-width: calc(50vw + 41rem);
+    }
+}
