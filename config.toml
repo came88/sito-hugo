@@ -38,7 +38,7 @@ enableRobotsTXT = true
     since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+    commit = "https://github.com/came88/sito-hugo/tree"
 
     rtl = false
 
