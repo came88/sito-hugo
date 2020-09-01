@@ -1,4 +1,4 @@
-baseurl = "https://lorenzo.cameroni.eu"
+baseurl = "https://lorenzo.cameroni.eu/"
 title = "Lorenzo Cameroni"
 
 theme = "hugo-coder"
