@@ -69,7 +69,7 @@ enableRobotsTXT = true
 #     siteID = "ABCDE"
 #     # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
 #     serverURL = "analytics.example.com"
-    
+
 # # If you want to use plausible(https://plausible.io) for analytics, add this section
 # [params.plausibleAnalytics]
 #     domain = "example.com"
@@ -83,49 +83,49 @@ enableRobotsTXT = true
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa fa-github"
     weight = 1
     url = "https://github.com/came88"
     target = "_blank"
 # [[params.social]]
 #     name = "Gitlab"
-#     icon = "fab fa-gitlab"
+#     icon = "fa fa-gitlab"
 #     weight = 2
 #     url = "https://gitlab.com/came88"
 #    target = "_blank"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter"
+    icon = "fa fa-twitter"
     weight = 3
     url = "https://twitter.com/LorenzoCameroni"
     target = "_blank"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fa fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/lorenzocameroni"
     target = "_blank"
 [[params.social]]
     name = "Instagram"
-    icon = "fab fa-instagram"
+    icon = "fa fa-instagram"
     weight = 5
     url = "https://www.instagram.com/lorenzo.cameroni/"
     target = "_blank"
 # [[params.social]]
 #     name = "Facebook"
-#     icon = "fab fa-facebook"
+#     icon = "fa fa-facebook"
 #     weight = 6
 #     url = "https://www.facebook.com/lorenzo.cameroni/"
 #    target = "_blank"
 # [[params.social]]
 #     name = "Medium"
-#     icon = "fab fa-medium"
+#     icon = "fa fa-medium"
 #     weight = 5
 #     url = "https://medium.com/@johndoe"
 #    target = "_blank"
 [[params.social]]
     name = "RSS"
-    icon = "fas fa-rss"
+    icon = "fa fa-rss"
     weight = 6
     url = "blog/index.xml"
     rel = "alternate"
