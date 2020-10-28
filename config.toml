@@ -56,13 +56,13 @@ enableRobotsTXT = true
     enableTwemoji = true
 
     # Custom CSS
-    custom_css = []
+    customCss = []
 
     # Custom CSS
-    custom_scss = [ "scss/custom.scss" ]
+    customScss = [ "scss/custom.scss" ]
 
     # Custom JS
-    custom_js = [ "js/codeblock.js" ]
+    customJs = [ "js/codeblock.js" ]
 
 # # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
