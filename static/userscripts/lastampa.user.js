@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         La Stampa JS Paywall Remover
 // @namespace    https://lorenzo.cameroni.eu
-// @version      1.0.0
+// @version      1.0.1
 // @description  Uncovers the "paywalled" articles on La Stampa
 // @author       Lorenzo Cameroni
 // @match        https://www.lastampa.it/*
@@ -29,19 +29,28 @@ function fetch(params) {
 
 $(() => {
     'use strict';
-    if ($("#article-body").length == 0) {
+    var url = location.pathname;
+    url = url.endsWith("/") ? url.slice(0, -1) : url;
+    var isAmp = url.endsWith('/amp');
+    var articleBody = isAmp ? $(".article-body"): $("#article-body")
+    if (articleBody.length == 0) {
         return;
     }
+    url = isAmp ? url.slice(0, -4) + '/amp' : url + '/amp';
     fetch({
         method: 'GET',
-        url: location.pathname,
+        url: url,
     }).then(function(responseDetails) {
         var r = responseDetails.responseText;
         var data = $(r);
-        var content = $("#article-body", r).html();
-        content = content.replace("<!-- T paywall -->", "<!-- omissis -->").replace("<!-- ZEPHR_FEATURE_END paywall -->", "<!-- omissis -->");
-        $("#article-body").html(content);
+        var content = $(".paywall", r).html();
+        content = content
+            .replace(/<script/, '<div').replace(/script>/, 'div>')
+            .replace(/<amp-img/gi, '<img').replace(/<.amp-img>/, '')
+            .replace(/amp-iframe/gi, 'iframe');
+        articleBody.html(content);
         $('#article-body .video-container').addClass('entry__media').find('h1').wrap('<figcaption></figcaption>');
+        $('.article-body .video-container').addClass('entry__media').find('h1').wrap('<figcaption></figcaption>');
         $('.paywall-adagio').remove();
     });
 });
