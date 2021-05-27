@@ -171,7 +171,7 @@ enableRobotsTXT = true
             author = "Lorenzo Cameroni"
             description = "Lorenzo Cameroni's personal website"
             keywords = "blog,developer,personal"
-            info = "Developer, matematician"
+            info = "Developer, mathematician"
             # footercontent = "Enter a text here."
             dateformat = "January 2, 2006"
 
