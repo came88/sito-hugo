@@ -50,7 +50,7 @@ quando non è più necessario (liberando anche qualche giga di RAM...)
 Ovviamente spegnere `ssh-agent` significa *dimenticare* le password delle chiavi ssh usate in precedenza, ma questo può
 essere accettablie se si è finito di utilizzare WSL.
 
-Per risolvere questo problema è necessario controllere periodicamente che WSL sia ancora in uso: questo può essere fatto
+Per risolvere questo problema è necessario controllare periodicamente che WSL sia ancora in uso: questo può essere fatto
 con uno script che controlli se ci sono dei processi di `bash` in esecuzione, e se non ce ne sono da un po' di tempo killare `ssh-agent`.
 
 Lo script è il seguente, salvato in `$HOME/check_ssh-agent.sh`:
