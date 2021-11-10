@@ -1,3 +1,5 @@
+// Expand code on mouseover
+
 "use strict";
 
 window.onload = function() {
