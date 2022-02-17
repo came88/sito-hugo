@@ -69,3 +69,14 @@ FROM summary
 WHERE owner = 'myschema'
 ORDER BY SUM(bytes) over (partition BY owner, table_name) DESC, bytes DESC
 ```
+
+The result should be something like this
+
+```
+OWNER    TABLE_NAME SEGMENT_NAME              SEGMENT_TYPE SEGMENT_GB     TOTAL_TABLE_GB SEGMENT_TO_TABLE SEGMENT_TO_SCHEMA TABLE_TO_SCHEMA
+-------- ---------- ------------------------- ------------ -------------- -------------- ---------------- ----------------- ---------------
+MYSCHEMA MY_TABLE   SYS_LOB0000898717C00004$$ LOBSEGMENT   164,5009765625 164,9130859375 99,750 %         93,907 %          94,142 %
+MYSCHEMA MY_TABLE   SYS_IL0000898717C00004$$  LOBINDEX     0,27734375     164,9130859375 0,168 %          0,158 %           94,142 %
+MYSCHEMA MY_TABLE   MY_TABLE                  TABLE        0,125          164,9130859375 0,076 %          0,071 %           94,142 %
+MYSCHEMA MY_TABLE   MY_TABLE_PK               INDEX        0,009765625    164,9130859375 0,006 %          0,006 %           94,142 %
+```
