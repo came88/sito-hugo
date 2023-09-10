@@ -6,7 +6,7 @@ aliases = [
 ]
 +++
 
-I'm Lorenzo Cameroni, and I'm a software engineer with a bachelor's degree in Mathematics.
+I am Lorenzo Cameroni, and I am a software engineer with a bachelor's degree in Mathematics.
 
 At work I mostly write code in Java, but I use many language and tools, such as:
 
