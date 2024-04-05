@@ -82,50 +82,50 @@ guesssyntax = true
 
 [[params.social]]
     name = "Github"
-    icon = "fa fa-2x fa-github"
+    icon = "fa-brands fa-2x fa-github"
     weight = 1
     url = "https://github.com/came88"
     target = "_blank"
 # [[params.social]]
 #     name = "Gitlab"
-#     icon = "fa fa-2x fa-gitlab"
+#     icon = "fa-brands fa-2x fa-gitlab"
 #     weight = 2
 #     url = "https://gitlab.com/came88"
 #    target = "_blank"
 [[params.social]]
     name = "Mastodon"
-    icon = "fa fa-2x fa-mastodon"
+    icon = "fa-brands fa-2x fa-mastodon"
     rel = "me"
     weight = 3
     url = "https://mastodon.uno/@lorenzocameroni"
     target = "_blank"
-[[params.social]]
-    name = "Twitter"
-    icon = "fa fa-2x fa-twitter"
-    weight = 3
-    url = "https://twitter.com/LorenzoCameroni"
-    target = "_blank"
+# [[params.social]]
+#     name = "Twitter"
+#     icon = "fa-brands fa-2x fa-twitter"
+#     weight = 3
+#     url = "https://twitter.com/LorenzoCameroni"
+#     target = "_blank"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-2x fa-linkedin"
+    icon = "fa-brands fa-2x fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/lorenzocameroni"
     target = "_blank"
-[[params.social]]
-    name = "Instagram"
-    icon = "fa fa-2x fa-instagram"
-    weight = 5
-    url = "https://www.instagram.com/lorenzo.cameroni/"
-    target = "_blank"
+# [[params.social]]
+#     name = "Instagram"
+#     icon = "fa-brands fa-2x fa-instagram"
+#     weight = 5
+#     url = "https://www.instagram.com/lorenzo.cameroni/"
+#     target = "_blank"
 # [[params.social]]
 #     name = "Facebook"
-#     icon = "fa fa-2x fa-facebook"
+#     icon = "fa-brands fa-2x fa-facebook"
 #     weight = 6
 #     url = "https://www.facebook.com/lorenzo.cameroni/"
 #    target = "_blank"
 # [[params.social]]
 #     name = "Medium"
-#     icon = "fa fa-2x fa-medium"
+#     icon = "fa-brands fa-2x fa-medium"
 #     weight = 5
 #     url = "https://medium.com/@johndoe"
 #    target = "_blank"
